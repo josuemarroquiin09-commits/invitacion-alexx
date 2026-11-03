@@ -114,7 +114,13 @@ main .btn.loc + .btn{margin-top:20px}
   <p class="num">WhatsApp: 58456352</p>
 </main>
 
-<audio id="song" src="cancion.mp3" loop preload="auto"></audio>
+<audio id="song" loop preload="auto">
+  <source src="cancion.mp3">
+  <source src="cancion.mp3.mpeg">
+  <source src="cancion.mpeg">
+  <source src="canci%C3%B3n.mp3.mpeg">
+  <source src="canci%C3%B3n.mp3">
+</audio>
 <button id="mus" class="mus" type="button" aria-label="Música" hidden>🎵</button>
 <script>
 (function(){
